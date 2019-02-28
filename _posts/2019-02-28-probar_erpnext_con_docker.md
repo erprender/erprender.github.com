@@ -64,9 +64,9 @@ Frappe es el framework en el que se basa ERPNext y ofrece de base un buen puñad
 * Calendario
 * Notas y recordatorios
 * Gestión de sitio web
-** Creación de páginas
-** Formularios web
-** Blogs
+ - Creación de páginas
+ - Formularios web
+ - Blogs
 
 Podremos fisgar utilizando el usuario _Administrator_ y la clave _admin_.
 
