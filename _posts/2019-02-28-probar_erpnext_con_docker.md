@@ -56,7 +56,7 @@ Con esto tenemos Bench y Frappe instalados en la imagen Docker _frappe_. Sin emb
 ./dbench start
 {% endhighlight %}
 
-Ahora ya podemos ver algo en el navegador. Abrimos http://localhost:8080 y nos encontraremos con la aplicación básica de Frappe.
+Ahora ya podemos ver algo en el navegador. Abrimos [http://localhost:8080](http://localhost:8080) y nos encontraremos con la aplicación básica de Frappe.
 
 Frappe es el framework en el que se basa ERPNext y ofrece de base un buen puñado de características:
 * Lista de tareas
@@ -80,3 +80,4 @@ Sin embargo lo nos interesa ver es un instalación de ERPNext. Pararemos el serv
 ./dbench --site site1.local install-app erpnext
 {% endhighlight %}
 
+Ahora sí abrimos [http://localhost:8080](http://localhost:8080) y nos encontraremos con la versión en desarrollo de ERPNext.
