@@ -13,7 +13,8 @@ Necesitaremos tener instalado Docker y Docker Compose en nuestro ordenador. En e
 
 {% highlight bash %}
 sudo apt install docker-compose docker.io
-sudo usermod -aG docker \$\{USER\}
+sudo usermod -aG docker ${USER}
 {% endhighlight %}
+
 
 
