@@ -24,7 +24,7 @@ locales:
     written_by: "Escrito por"
     updated: "Actualizado"
     share: "Compartir"
-  de_ES:
+  es_ES:
     <<: *DEFAULT_ES     
 
   # French translation (TODO)
