@@ -3,7 +3,7 @@ layout: article
 title: Instalar ERPNext con Docker
 published: true
 ---
-Una de las formas más fáciles de instalar ERPNext para poder explorarlo es mediandte Docker.
+Una de las formas más fáciles de instalar ERPNext para poder explorarlo es mediante Docker.
 
 Si bien existen múltimples imágenes de Docker publicadas que permiten ejecutar ERPNext en este artículo usaremos la imagen de [Docker Compose que proporciona Frappe.](https://github.com/frappe/frappe_docker)
 
@@ -64,16 +64,19 @@ Frappe es el framework en el que se basa ERPNext y ofrece de base un buen puñad
 * Calendario
 * Notas y recordatorios
 * Gestión de sitio web
- - Creación de páginas
- - Formularios web
- - Blogs
+  - Creación de páginas
+  - Formularios web
+  - Blogs
 
 Podremos fisgar utilizando el usuario _Administrator_ y la clave _admin_.
 
 ![Cuadro de mandos básico de Frappe]({{site.baseurl}}/images/Screenshot_20190228_215231.png)
 
-Sin embargo lo nos interesa ver es un instalación de ERPNext. Pararemos el servidor pulsando Ctrl + C.
+Sin embargo lo nos interesa ver es un instalación de ERPNext. Pararemos el servidor pulsando `Ctrl + C`. Reinstalaremos el sitio y le añadiremos ERPNext.
 
 
-
+{% highlight bash %}
+./dbench --site site1.local reinstall
+./dbench --site site1.local install-app erpnext
+{% endhighlight %}
 
