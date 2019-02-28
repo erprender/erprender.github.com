@@ -22,9 +22,13 @@ Debemos salir y entrar de la cuenta para que se aplique el grupo a nuestro usuar
 su - ${USER}
 {% endhighlight bash %}
 
+
+Nos descargaremos el repositorio con la imagen Docker desde GitHub:
 {% highlight bash %}
 git clone https://github.com/frappe/frappe_docker.git
 cd frappe_docker
 {% endhighlight bash %}
+
+
 
 
