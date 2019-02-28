@@ -15,17 +15,17 @@ locales:
   en_UK:
     <<: *DEFAULT_EN     # use English translation for en_UK
 
-  # German translation
+  # Spanish translation
   # -------------------
-  de: &DEFAULT_DE
+  es: &DEFAULT_ES
     <<: *DEFAULT_EN     # load English values as default
-    overview: "&Uuml;bersicht"
-    toc: "Inhalt"
-    written_by: "Verfasst von"
-    updated: "Zuletzt aktualisiert:"
-    share: ""
-  de_DE:
-    <<: *DEFAULT_DE     # use German translation for de_DE
+    overview: "Acerca de"
+    toc: "Tabla de contenidos"
+    written_by: "Escrito por"
+    updated: "Actualizado"
+    share: "Compartir"
+  de_ES:
+    <<: *DEFAULT_ES     
 
   # French translation (TODO)
   # -------------------
