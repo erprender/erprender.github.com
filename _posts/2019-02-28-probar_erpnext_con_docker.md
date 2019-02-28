@@ -70,7 +70,7 @@ Frappe es el framework en el que se basa ERPNext y ofrece de base un buen puñad
 
 Podremos fisgar utilizando el usuario _Administrator_ y la clave _admin_.
 
-![Cuadro de mandos básico de Frappe]({{site.baseurl}}/_posts/Screenshot_20190228_215231.png)
+![Cuadro de mandos básico de Frappe]({{site.baseurl}}/images/Screenshot_20190228_215231.png)
 
 
 
