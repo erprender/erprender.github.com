@@ -82,4 +82,15 @@ Sin embargo lo nos interesa ver es un instalación de ERPNext. Pararemos el serv
 ./dbench start
 {% endhighlight %}
 
-Ahora sí abrimos [http://localhost:8000](http://localhost:8000) y nos encontraremos con la versión en desarrollo de ERPNext.
+Ahora sí abrimos [http://localhost:8000](http://localhost:8000) y podremos configurar nuestra instalación de ERPNext tras lo que nos encontraremos con la versión en desarrollo actual.
+
+En nuestro caso nos hemos encontrado con un problema en la instalación. Tras la parametrización del asistente inicial nos muestra el mensaje:
+	
+    Setup failed
+	Could not start up: Error in setup
+
+![Setup failed Could not start up: Error in setup]({{site.baseurl}}/images/setup_failed.png)
+
+Tras unos pocos reintentos la aplicación finalmente está disponible.
+
+![Dashboard ERPNext]({{site.baseurl}}/images/cuadro_de_mando_dashboard_erpnext_12.png)
