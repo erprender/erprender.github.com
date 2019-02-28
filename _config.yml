@@ -25,8 +25,8 @@ gems:
 
 
 # Site owner
-owner:
-  name:
+owner: ERPrender
+  name: ERPrender
   email:
   twitter:
   google:
