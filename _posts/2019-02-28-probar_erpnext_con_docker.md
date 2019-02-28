@@ -9,7 +9,7 @@ Si bien existen múltimples imágenes de Docker publicadas que permiten ejecutar
 
 Veamos cómo hacerlo.
 
-Necesitaremos tener instalado Docker y Docker Compose en nuestro ordenador. En el caso de Ubuntu (y probablemente otras distribuciones basadas en Debian) se puede ejecutar:
+Necesitaremos tener instalado Docker y Docker Compose en nuestro ordenador. En el caso de Ubuntu (y probablemente otras distribuciones basadas en Debian) se puede ejecutar:o
 
 {% highlight bash %}
 sudo apt install docker-compose docker.io
