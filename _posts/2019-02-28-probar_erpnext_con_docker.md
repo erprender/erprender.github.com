@@ -29,6 +29,21 @@ git clone https://github.com/frappe/frappe_docker.git
 cd frappe_docker
 {% endhighlight bash %}
 
+Inicializaremos las instancias de Docker:
+
+{% highlight bash %}
+./dbench setup docker
+{% endhighlight bash %}
+
+Este comando utilizará Docker Compose para crear cinco instancias de Docker:
+
+* mariadb
+* redis-queue
+* redis-cache
+* redis-socketio
+* frappe
+
+
 
 
 
