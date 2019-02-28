@@ -35,7 +35,7 @@ Inicializaremos las instancias de Docker:
 ./dbench setup docker
 {% endhighlight bash %}
 
-Este comando utilizará Docker Compose para crear cinco instancias de Docker:
+Este comando utilizará Docker Compose (`docker-compose up -d`) para crear cinco instancias de Docker:
 
 * mariadb
 * redis-queue
