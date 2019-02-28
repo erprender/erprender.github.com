@@ -2,6 +2,7 @@
 layout: article
 title: Instalar ERPNext con Docker
 published: true
+author: ERPrender
 ---
 Una de las formas más fáciles de instalar ERPNext para poder explorarlo es mediante Docker.
 
