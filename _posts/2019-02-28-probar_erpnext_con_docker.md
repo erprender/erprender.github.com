@@ -72,7 +72,7 @@ Podremos fisgar utilizando el usuario _Administrator_ y la clave _admin_.
 
 ![Cuadro de mandos básico de Frappe]({{site.baseurl}}/images/Screenshot_20190228_215231.png)
 
-
+Sin embargo lo nos interesa ver es un instalación de ERPNext. Pararemos el servidor pulsando Ctrl + C.
 
 
 
