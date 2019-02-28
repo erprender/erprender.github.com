@@ -77,7 +77,9 @@ Sin embargo lo nos interesa ver es un instalación de ERPNext. Pararemos el serv
 
 {% highlight bash %}
 ./dbench --site site1.local reinstall
+./dbench get-app erpnext https://github.com/frappe/erpnext
 ./dbench --site site1.local install-app erpnext
+./dbench start
 {% endhighlight %}
 
 Ahora sí abrimos [http://localhost:8080](http://localhost:8080) y nos encontraremos con la versión en desarrollo de ERPNext.
