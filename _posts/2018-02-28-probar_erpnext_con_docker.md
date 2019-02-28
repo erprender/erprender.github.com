@@ -1,7 +1,5 @@
 ---
-published: true
-layout: article
-title: Instalar ERPNext en local mediante Docker
+layout: post
+title: Blogging Like a Hacker
 ---
-
 Veamos cómo hacerlo
